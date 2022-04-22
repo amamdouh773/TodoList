@@ -1,0 +1,77 @@
+ul {
+  list-style: none;
+}
+.toDo {
+  text-align: center;
+}
+
+.textBox {
+  margin: 5px;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid #b7c5e0;
+  outline: none;
+}
+
+.submitBtn {
+  background: none;
+  border-radius: 50%;
+  background-color: #b7c5e0;
+  color: #ffffff;
+  padding: 7px 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header {
+  color: #b7c5e0;
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 685px;
+  width: 180px;
+  height: 3px;
+  background-color: #b7c5e0;
+}
+
+.tasks {
+  font-weight: bold;
+  width: 400px;
+  margin: 0 550px;
+}
+
+.task {
+  border: 2px solid #b7c5e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task .unchecked {
+  padding: 10px;
+  margin: auto 10px;
+  cursor: default;
+}
+
+.task .checked {
+  text-decoration: line-through;
+}
+
+.taslk .icons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.task .icons img {
+  width: 25px;
+  height: 25px;
+  padding: 7px;
+  cursor: pointer;
+}
